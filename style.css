@@ -135,12 +135,26 @@ html, body {
     color: var(--clr-white);
 }
 
+.button:hover {
+  cursor: pointer;
+  background: var(--clr-light-blue);
+}
+
 .button[data-type="inverted"] {
   background: var(--clr-button-gradient);
 }
 
+.button[data-type="inverted"]:hover {
+  opacity: 60%;
+}
+
+
 .button[data-type="footer"] {
   background: var(--clr-button-footer-gradient);
+}
+
+.button[data-type="footer"]:hover {
+  opacity: 50%;
 }
 
 /* hero */
@@ -235,6 +249,11 @@ html, body {
   padding-bottom: 2em;
   font-size: 18px;
   color: var(--clr-dark-pink);
+}
+
+.card > h4:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 
 /* footer */
