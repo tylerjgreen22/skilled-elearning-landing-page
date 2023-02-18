@@ -242,14 +242,8 @@ body {
   justify-content: space-between;
   background-color: var(--clr-primary-blue);
   margin-top: 5em;
-  padding: 2em 1.5em;
   align-items: center;
-}
-
-@media (min-width: 48em) {
-  .footer {
-    padding: 2em 3em;
-  }
+  padding: 2em 0;
 }
 
 /* utility classes */
