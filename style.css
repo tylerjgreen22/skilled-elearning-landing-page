@@ -101,9 +101,11 @@ select {
 }
 
 /* general */
-body {
+html, body {
     font-family: var(--ff-primary);
     background: var(--clr-background-gradient);
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* header */
